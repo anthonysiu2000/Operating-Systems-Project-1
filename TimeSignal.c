@@ -23,7 +23,7 @@ int main(int argc, char *argv[]){
 	float seconds = end.tv_sec - start.tv_sec;
 	float microseconds = end.tv_usec - start.tv_usec;
 	float microElapsed = seconds * 1000000 + microseconds;
-	float averageTime = microElapsed / 100000;
+	float averageTime = microElapsed / 1;
 
 	//prints output
 	printf("Exceptions Occurred: \n");
